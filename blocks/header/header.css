@@ -1,46 +1,45 @@
-.page {
-  min-width: 320px; /* минимальная ширина страницы */
-  max-width: 1280px; /* ограничение по максимальной ширине */
+.header {
+  /* Основной код для разрешения 1024px */
+  width: calc(100% - (48 * 2));
+  height: 52px;
   margin: 0 auto; /* отцентрировали весь контент */
-  font-family: 'Inter', 'Arial', sans-serif;
-  background-color: #E5E5E5;
-  padding-top: 30px;
+  /* background-color: #E5E5E5; */
+  background-color: gray;
 }
 
 @media all and (max-width : 1440px) {
   /* стили для больших мониторов с разрешением 4K */
-  .page {
-    padding-top: 30px;
+  .header {
+    width: calc(100% - (48px * 2));
+    /* так как "порог" максимальной ширины 1280px */
+    height: 52px;
   }
 }
 @media all and (max-width : 1280px) {
   /* стили для больших настольных компьютеров и ноутбуков */
-  .page {
-    padding-top: 30px;
+  .header {
+    width: calc(100% - (48px * 2));
+    height: 52px;
   }
 }
 @media all and (max-width : 768px) {
   /* стили для планшета */
-  .page {
-    padding-top: 30px;
+  .header {
+    width: calc(100% - (24px * 2));
+    height: 52px;
   }
 }
 @media all and (max-width : 375px) {
   /* стили для среднего смартфона */
-  .page {
-    padding-top: 16px;
+  .header {
+    width: calc(100% - (16px * 2));
+    height: 42px;
   }
 }
 @media all and (max-width : 320px) {
   /* стили для малого смартфона */
-  .page {
-    padding-top: 16px;
+  .header {
+    width: calc(100% - (16px * 2));
+    height: 42px;
   }
 }
-
-
-/*
-div {
-    border: 1px red solid;
-}
-*/
