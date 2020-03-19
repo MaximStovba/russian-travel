@@ -1,11 +1,11 @@
 .lead__title {
+  margin: 0;
   font-style: normal;
   font-weight: 900;
-  font-size: 6rem; /* 96px */
+  font-size: 6rem; /* 96px / 16px */
   line-height: 96.88%; /* 93px */
   text-align: center;
   color: #FFFFFF;
-  margin: 0;
 }
 
 @media all and (max-width : 375px) {

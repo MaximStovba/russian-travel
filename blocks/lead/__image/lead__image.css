@@ -2,5 +2,9 @@
 @import url(./_name/lead__image_name_roadmap.css);
 
 .lead__image {
-  
+  position: relative;
+  margin: 0;
+  margin-top: 4.5rem; /* 72px */
+  width: 100%;
+  height: auto;
 }

@@ -4,7 +4,6 @@
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  background-color: gray; /* убрать */
   margin-top: 3rem; /* 48px */
   margin-left: 3rem;
   margin-right: 3rem;
@@ -12,7 +11,7 @@
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  align-items: center;
+  align-items: stretch;
 }
 
 @media all and (min-width : 1440px) {
