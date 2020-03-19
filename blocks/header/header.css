@@ -1,4 +1,6 @@
 @import url(./__logo/header__logo.css);
+@import url(./__langs/header__langs.css);
+@import url(./__lang/header__lang.css);
 
 .header {
   /* Основной код для разрешения 1024px */
@@ -7,6 +9,10 @@
   margin: 0 auto; /* отцентрировали весь контент */
   /* background-color: #E5E5E5; */
   background-color: #2A2C2F;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: stretch;
 }
 
 @media all and (min-width : 1440px) {
