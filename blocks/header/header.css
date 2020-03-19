@@ -1,16 +1,18 @@
+@import url(./__logo/header__logo.css);
+
 .header {
   /* Основной код для разрешения 1024px */
   width: calc(100% - (48 * 2));
   height: 52px;
   margin: 0 auto; /* отцентрировали весь контент */
   /* background-color: #E5E5E5; */
-  background-color: gray;
+  background-color: #2A2C2F;
 }
 
-@media all and (max-width : 1440px) {
+@media all and (min-width : 1440px) {
   /* стили для больших мониторов с разрешением 4K */
   .header {
-    width: calc(100% - (48px * 2));
+    width: calc(100% - (128px * 2));
     /* так как "порог" максимальной ширины 1280px */
     height: 52px;
   }
