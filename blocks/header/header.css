@@ -7,8 +7,9 @@
   width: calc(100% - (48 * 2));
   height: 52px;
   margin: 0 auto; /* отцентрировали весь контент */
-  /* background-color: #E5E5E5; */
+  /* background-color: #E5E5E5;  */
   background-color: #2A2C2F;
+
   display: flex;
   flex-direction: row;
   justify-content: space-between;
