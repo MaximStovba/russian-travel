@@ -1,10 +1,19 @@
 .lead__subtitle {
   margin: 0;
-  margin-top: 2.875rem; /* 46px */
+  margin-top: 3rem; /* 48px */
   font-style: normal;
   font-weight: normal;
   font-size: 1.875rem; /* 30px */
   line-height: 1.2; /* 36px */
   text-align: center;
   color: #FFFFFF;
+}
+
+@media all and (max-width : 375px) {
+  /* стили для среднего смартфона */
+  .lead__subtitle {
+    margin-top: 0.5rem; /* 8px */
+    font-size: 1rem; /* 16px */
+    line-height: 1.4375; /* 23px */
+  }
 }

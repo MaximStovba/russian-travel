@@ -4,7 +4,14 @@
 .lead__image {
   position: relative;
   margin: 0;
-  margin-top: 4.5rem; /* 72px */
+  margin-top: 4.875rem; /* 78px */
   width: 100%;
   height: auto;
+}
+
+@media all and (max-width : 375px) {
+  /* стили для среднего смартфона */
+  .lead__image {
+    margin-top: 2rem; /* 32px */
+  }
 }

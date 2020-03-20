@@ -10,3 +10,11 @@
   color: #FFFFFF;
   text-align: left;
 }
+
+@media all and (max-width : 375px) {
+  /* стили для среднего смартфона */
+  .lead__caption {
+    margin-top: 0.5rem; /* 8px */
+    margin-left: 1rem;  /* 16px */
+  }
+}
