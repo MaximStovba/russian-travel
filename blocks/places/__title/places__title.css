@@ -1,3 +1,11 @@
 .places__title {
-  
+  margin: 0;
+  grid-area: title;
+  justify-items: start; /*выравнивание содержимого*/
+  align-items: start; /*выравнивание содержимого*/
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem; /*72px*/
+  line-height: 0.9028; /*65px*/
+  color: #FFFFFF;
 }

@@ -8,5 +8,11 @@
 @import url(./__paragraph/places__paragraph.css);
 
 .places {
+  margin: 0;
+  margin-top: 6.375rem; /*102px*/
+  margin-left: 3rem; /*48px*/
+  margin-right: 3rem; /*48px*/
 
+  display: grid;
+  grid-row-gap: 4.5rem; /*72px*/
 }
