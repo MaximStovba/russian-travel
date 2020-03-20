@@ -1,0 +1,12 @@
+.intro__content-row {
+  margin: 0;
+  margin-top: 3rem; /*48px*/
+  text-align: left;
+  max-width: 43.75rem; /*700px*/
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 0.875rem; /*14px*/
+  line-height: 1.5rem; /*24px*/
+  color: #FFFFFF;
+}
