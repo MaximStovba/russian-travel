@@ -1,13 +1,12 @@
 .places__place {
   margin: 0;
-  background-color: tomato; /* убрать */
 
   max-width: 58rem; /*928px*/
   /* max-height: 40rem; /*640px убрать */
 
   display: grid;
   grid-template-columns: 27.5rem 1fr; /*440px*/
-  grid-template-rows: 1fr 27.5rem;
+  grid-template-rows: 1fr fit-content(27.5rem); /* minmax(min-content, max-content) */
   grid-column-gap: 2rem; /*32px*/
   grid-row-gap: 2.5rem; /*40px*/
   grid-template-areas:

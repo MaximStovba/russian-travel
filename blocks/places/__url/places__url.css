@@ -4,8 +4,6 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  text-decoration-line: underline;
+  text-decoration: none;
   color: #FFFFFF;
-
-  background-color: turquoise;
 }
