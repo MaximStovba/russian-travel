@@ -1,0 +1,9 @@
+@import url(./__cover-bg/cover__cover-bg.css);
+@import url(./__title/cover__title.css);
+@import url(./__subtitle/cover__subtitle.css);
+
+.cover {
+  margin: 0;
+  margin-top: 102px;
+  position: relative;
+}
