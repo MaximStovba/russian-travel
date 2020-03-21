@@ -2,3 +2,8 @@
   margin: 0;
   position: relative;
 }
+
+.video__item:hover .video__item-bg {
+  background: #000000;
+  opacity: 0.5;
+}

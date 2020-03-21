@@ -22,11 +22,6 @@
   border-bottom: 2px #2A2C2F solid;
 }
 
-.header__lang:hover {
-  color: #FFFFFF;
-  border-bottom: 2px #FFFFFF solid;
-}
-
 @media all and (max-width : 375px) {
   .header__lang {
     font-size: 1.125rem; /* размер шрифта 18px */

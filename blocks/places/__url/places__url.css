@@ -4,6 +4,19 @@
   font-weight: normal;
   font-size: 18px;
   line-height: 30px;
-  text-decoration: none;
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  color: #FFFFFF;
+}
+
+.places__url:hover {
+  color: #FFFFFF;
+  text-decoration-line: underline;
+}
+
+.places__url:link {
+  color: #FFFFFF;
+}
+
+.places__url:visited {
   color: #FFFFFF;
 }

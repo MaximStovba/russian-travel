@@ -7,3 +7,10 @@
   color: #FFFFFF;
   text-decoration: none;
 }
+
+.footer__link:hover {
+  color: #FFFFFF;
+  /* ссылка при наведении мыши плавно становиться немного прозрачной */
+  opacity: 0.7;
+  transition: opacity 1s ease;
+}
