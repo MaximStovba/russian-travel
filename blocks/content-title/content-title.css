@@ -1,3 +1,9 @@
 .content-title {
-  
+  margin: 0;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 4.5rem; /*72*/
+  line-height: 4.875rem; /*78*/
+  text-align: center;
+  color: #FFFFFF;
 }

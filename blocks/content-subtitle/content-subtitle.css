@@ -1,3 +1,10 @@
 .content-subtitle {
-  
+  margin: 0;
+  margin-top: 3rem; /*48*/
+  font-style: normal;
+  font-weight: normal;
+  font-size: 1.5rem; /*24*/
+  line-height: 2.1875rem; /*35*/
+  text-align: center;
+  color: #FFFFFF;
 }

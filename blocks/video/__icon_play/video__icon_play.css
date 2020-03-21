@@ -1,3 +1,8 @@
 .video__icon_play {
-  
+  margin: 0;
+  width: 41px;
+  height: 41px;
+  position: absolute;
+  top: 10.4%;
+  left: 6.58%;
 }

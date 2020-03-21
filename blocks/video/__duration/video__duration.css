@@ -1,3 +1,12 @@
 .video__duration {
-  
+  margin: 0;
+  position: absolute;
+  top: 43.4%; /*125/288*/
+  left: 6.58%;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0.3em;
+  color: #FFFFFF;
 }

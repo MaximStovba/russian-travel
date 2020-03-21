@@ -2,7 +2,6 @@
   margin: 0;
 
   max-width: 58rem; /*928px*/
-  /* max-height: 40rem; /*640px убрать */
 
   display: grid;
   grid-template-columns: 27.5rem 1fr; /*440px*/
