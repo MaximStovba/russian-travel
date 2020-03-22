@@ -13,7 +13,7 @@
   margin: 0;
 }
 
-@media all and (max-width : 375px) {
+@media all and (max-width : 464px) {
   /* стили для среднего смартфона */
   .lead__subtitle {
     margin-top: 0.5rem; /* 8px */

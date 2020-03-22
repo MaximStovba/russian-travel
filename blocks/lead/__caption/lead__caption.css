@@ -11,7 +11,14 @@
   text-align: left;
 }
 
-@media all and (max-width : 375px) {
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .lead__caption {
+    margin-left: 1.5rem; /*24*/
+  }
+}
+
+@media all and (max-width : 464px) {
   /* стили для среднего смартфона */
   .lead__caption {
     margin-top: 0.5rem; /* 8px */
