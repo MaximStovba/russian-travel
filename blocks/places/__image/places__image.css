@@ -1,4 +1,13 @@
 .places__image {
   margin: 0;
   grid-area: image;
+  width: 100%;
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .places__image {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+  }
 }

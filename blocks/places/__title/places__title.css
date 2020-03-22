@@ -5,7 +5,24 @@
   align-items: start; /*выравнивание содержимого*/
   font-style: normal;
   font-weight: 900;
-  font-size: 4.5rem; /*72px*/
-  line-height: 0.9028; /*65px*/
+  font-size: 4.5rem; /*72*/
+  line-height: 0.9028; /*65*/
   color: #FFFFFF;
+}
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .places__title {
+    font-size: 2.625rem; /*42*/
+    line-height: 1.0952; /*46*/
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .places__title {
+    font-size: 2rem; /*32*/
+    line-height: 1.0938; /*35*/
+    margin-left: 1rem;
+  }
 }

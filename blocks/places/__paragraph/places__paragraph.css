@@ -2,12 +2,37 @@
   margin: 0;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.125rem; /*18*/
+  line-height: 1.875rem; /*30*/
   color: #FFFFFF;
 }
 
 .places__paragraph:nth-of-type(2) {
-  margin-top: 24px;
+  margin-top: 1.5rem; /*24*/
 }
 
+@media all and (min-width : 1264px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+  .places__paragraph:nth-of-type(2) {
+    margin-top: 2.25rem; /*36*/
+  }
+}
+
+/*=== 1024 ===*/
+
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .places__paragraph {
+    font-size: 1rem; /*16*/
+    line-height: 1.6875rem; /*27*/
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .places__paragraph {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}

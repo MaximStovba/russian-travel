@@ -1,10 +1,17 @@
 .places__url-heading {
   margin: 0;
-  margin-bottom: 16px; /*отступ снизу*/
+  margin-bottom: 1rem; /*отступ снизу*/
   font-style: normal;
   font-weight: normal;
-  font-size: 12px;
-  line-height: 20px;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
   letter-spacing: 0.2em;
   color: #AAAAAA;
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .places__url-heading {
+    font-size: 0;
+  }
 }

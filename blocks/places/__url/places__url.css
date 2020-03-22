@@ -2,8 +2,8 @@
   margin: 0;
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 30px;
+  font-size: 1.125rem;
+  line-height: 1.875rem;
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
   color: #FFFFFF;
 }
@@ -19,4 +19,11 @@
 
 .places__url:visited {
   color: #FFFFFF;
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .places__url {
+    font-size: 0;
+  }
 }
