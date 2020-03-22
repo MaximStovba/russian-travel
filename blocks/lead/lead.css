@@ -14,21 +14,23 @@
   align-items: stretch;
 }
 
-@media all and (min-width : 1440px) {
-  /* стили для больших мониторов с разрешением 4K */
-  .lead {
-    margin-left: 14.25rem; /* 228px */
-    margin-right: 14.25rem;
-  }
-}
-@media all and (min-width : 1280px) {
+@media all and (min-width : 1264px) {
   /* стили для больших настольных компьютеров и ноутбуков */
   .lead {
     margin-left: 9.25rem; /* 148px */
     margin-right: 9.25rem;
   }
 }
-@media all and (max-width : 768px) {
+
+@media all and (min-width : 1424px) {
+  /* стили для больших мониторов с разрешением 4K */
+  .lead {
+    margin-left: 14.25rem; /* 228px */
+    margin-right: 14.25rem;
+  }
+}
+
+@media all and (max-width : 784px) {
   /* стили для планшета */
   .lead {
     margin-left: 0;

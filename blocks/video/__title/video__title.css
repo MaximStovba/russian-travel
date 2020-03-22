@@ -1,11 +1,12 @@
 .video__title {
   margin: 0;
   position: absolute;
-  bottom: 22.9%; /*66/288*/
+  bottom: 20%; /*66/288*/
   left: 6.58%;
   font-style: normal;
   font-weight: 900;
   font-size: 36px;
   line-height: 39px;
   color: #FFFFFF;
+  max-width: 20.125rem;
 }
