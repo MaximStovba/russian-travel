@@ -16,3 +16,31 @@
   justify-content: flex-start;
   align-items: stretch;
 }
+
+@media all and (min-width : 1424px) {
+  /* стили для больших мониторов с разрешением 4K */
+  .video {
+    margin-left: 8rem; /*128*/
+    margin-right: 8rem; /*128*/
+  }
+}
+
+/*=== 1024 ===*/
+
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .video {
+    margin-left: 1.5rem; /*24*/
+    margin-right: 1.5rem; /*24*/
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .video {
+    margin-top: 4rem; /*64*/
+    margin-left: 1rem; /*16*/
+    margin-right: 1rem; /*16*/
+  }
+}

@@ -5,8 +5,16 @@
   left: 6.58%;
   font-style: normal;
   font-weight: 900;
-  font-size: 36px;
-  line-height: 39px;
+  font-size: 2.25rem; /*36*/
+  line-height: 2.4375rem; /*39*/
   color: #FFFFFF;
   max-width: 20.125rem;
+}
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .video__title {
+    font-size: 1.5rem; /*24*/
+    line-height: 1.625rem; /*26*/
+  }
 }

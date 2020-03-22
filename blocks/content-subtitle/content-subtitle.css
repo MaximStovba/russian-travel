@@ -7,4 +7,22 @@
   line-height: 2.1875rem; /*35*/
   text-align: center;
   color: #FFFFFF;
+  max-width: 40rem; /*640*/
+}
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .content-subtitle {
+    margin-top: 1.5rem; /*24*/
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .content-subtitle {
+    max-width: 100%;
+    margin-top: 1rem;
+    font-size: 1rem; /*16*/
+    line-height: 1.4375rem; /*23*/
+  }
 }

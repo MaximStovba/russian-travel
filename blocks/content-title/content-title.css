@@ -7,3 +7,19 @@
   text-align: center;
   color: #FFFFFF;
 }
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .content-title {
+    font-size: 2.625rem; /*42*/
+    line-height: 2.875rem; /*46*/
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .content-title {
+    font-size: 2rem; /*32*/
+    line-height: 2.1875rem; /*35*/
+  }
+}
