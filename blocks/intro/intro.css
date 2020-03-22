@@ -13,3 +13,46 @@
   justify-content: flex-start;
   align-items: stretch;
 }
+
+@media all and (min-width : 1264px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+  .intro {
+    margin-left: 9.25rem; /* 148px */
+    margin-right: 9.25rem; /* 148px */
+  }
+}
+
+@media all and (min-width : 1424px) {
+  /* стили для больших мониторов с разрешением 4K */
+  .intro {
+    margin-left: 14.25rem; /* 228px */
+    margin-right: 14.25rem; /* 228px */
+  }
+}
+
+=== 1024 ===
+
+@media all and (min-width : 1100px) {
+  /* стили для компьютеров и ноутбуков */
+  .intro {
+
+  }
+}
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .intro {
+    margin-left: 1.5rem; /* 24px */
+    margin-right: 1.5rem; /* 24px */
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .intro {
+    margin-top: 4rem; /* 64px */
+    margin-left: 1rem; /* 16px */
+    margin-right: 1rem; /* 16px */
+  }
+}
+

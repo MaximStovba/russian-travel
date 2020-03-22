@@ -7,3 +7,11 @@
   line-height: 1.093; /*59px*/
   color: #FFFFFF;
 }
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .intro__title {
+    font-size: 2rem; /*32px*/
+    line-height: 1.094; /*35px*/
+  }
+}
