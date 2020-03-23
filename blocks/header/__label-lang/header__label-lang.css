@@ -1,0 +1,17 @@
+.header__label-lang {
+  font-style: normal;
+  font-weight: normal; /* начертание */
+  font-size: 1.5rem; /* размер шрифта 24px */
+  line-height: calc(1.5rem - 1px); /* высота строки 23px */
+  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  border-bottom: 1px #2A2C2F solid;
+  color: #FFFFFF;
+}
+
+@media all and (max-width : 375px) {
+  .header__label-lang {
+    font-size: 1.125rem; /* размер шрифта 18px */
+    line-height: calc(1.125rem - 1px); /* высота строки 17px */
+    border-bottom: 1px;
+  }
+}

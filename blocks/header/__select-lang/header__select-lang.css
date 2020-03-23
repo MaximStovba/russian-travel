@@ -1,0 +1,21 @@
+/* скрываем элементы единичного выбора кросбраузерным способом */
+.header__select-lang {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+}
+
+/* стилизация радиобатонов */
+.header__select-lang:checked + .header__pseudo-item {
+  border: 1px solid white;
+}
+
+.header__select-lang:disabled + .header__pseudo-item {
+  border: 1px solid #2A2C2F;
+}
+
+.header__select-lang:focus + .header__pseudo-item {
+  border: 1px solid white;
+}

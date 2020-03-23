@@ -1,7 +1,9 @@
 @import url(./__logo/header__logo.css);
 @import url(./__langs/header__langs.css);
 @import url(./__lang/header__lang.css);
-@import url(./__lang/_decoration/header__lang_decoration_line.css);
+@import url(./__label-lang/header__label-lang.css);
+@import url(./__select-lang/header__select-lang.css);
+@import url(./__pseudo-item/header__pseudo-item.css);
 
 .header {
   /* Основной код для разрешения 1024px */
