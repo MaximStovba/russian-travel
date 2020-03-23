@@ -2,5 +2,29 @@
   margin: 0;
   border-radius: 5px;
   width: 100%;
-  height: auto;
+  height: 18rem; /*288*/
+  background-size: contain;
+}
+
+@media all and (min-width : 1264px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+  .video__item-bg {
+    height: 20.1875rem; /*323*/
+  }
+}
+
+/*=== 1024 ===*/
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .video__item-bg {
+    height: 12.5rem; /*200*/
+  }
+}
+
+@media all and (max-width : 336px) {
+  /* телефоны */
+  .video__item-bg {
+    height: 12rem; /*192*/
+  }
 }

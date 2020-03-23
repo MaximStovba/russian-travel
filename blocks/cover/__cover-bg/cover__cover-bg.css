@@ -8,20 +8,20 @@
 @media all and (max-width : 784px) {
   /* стили для планшета */
   .cover__cover-bg {
-    height: 500px;
+    height: 31.25rem; /*500*/
   }
 }
 
 @media all and (max-width : 464px) {
   /* телефоны */
   .cover__cover-bg {
-    height: 272px;
+    height: 17rem; /*272*/
   }
 }
 
 @media all and (max-width : 336px) {
   /* телефоны */
   .cover__cover-bg {
-    height: 216px;
+    height: 13.5rem; /*216*/
   }
 }
