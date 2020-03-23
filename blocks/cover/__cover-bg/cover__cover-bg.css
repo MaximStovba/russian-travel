@@ -1,4 +1,27 @@
 .cover__cover-bg {
   margin: 0;
   width: 100%;
+  height: auto;
+  background-size: contain;
+}
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .cover__cover-bg {
+    height: 500px;
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .cover__cover-bg {
+    height: 272px;
+  }
+}
+
+@media all and (max-width : 336px) {
+  /* телефоны */
+  .cover__cover-bg {
+    height: 216px;
+  }
 }

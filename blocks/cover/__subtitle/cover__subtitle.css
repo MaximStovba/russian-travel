@@ -1,15 +1,39 @@
 .cover__subtitle {
-  max-width: 382px;
+  max-width: 23.875rem; /*382*/
   position: absolute;
   left: 0;
   right: 0;
   margin: 0 auto;
-  bottom: 48px;
+  bottom: 3rem; /*48*/
   font-style: normal;
   font-weight: normal;
-  font-size: 18px;
-  line-height: 26px;
+  font-size: 1.125rem; /*18*/
+  line-height: 1.625rem; /*26*/
   text-align: center;
   color: #FFFFFF;
   z-index: 1;
+}
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .cover__subtitle {
+    bottom: 2.5rem; /*40*/
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .cover__subtitle {
+    max-width: 21.4375rem; /*343*/
+    bottom: 1.5rem; /*24*/
+    font-size: 0.875rem; /*14*/
+    line-height: 1.0625rem; /*17*/
+  }
+}
+
+@media all and (max-width : 336px) {
+  /* телефоны */
+  .cover__subtitle {
+    max-width: 18rem; /*288*/
+  }
 }

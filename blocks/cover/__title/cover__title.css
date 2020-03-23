@@ -6,9 +6,40 @@
   left: 50%;
   font-style: normal;
   font-weight: 900;
-  font-size: 72px;
-  line-height: 78px;
+  font-size: 4.5rem; /*72*/
+  line-height: 4.875rem; /*78*/
   text-align: center;
   color: #FFFDFD;
   z-index: 1;
+}
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .cover__title {
+    transform: translate(-20%, -50%);
+    top: 50%;
+    left: 30%;
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .cover__title {
+    font-size: 2rem; /*32*/
+    line-height: 2.1875rem; /*35*/
+    left: 1rem;
+    right: 1rem;
+    transform: translate(-20%, -50%);
+    top: 50%;
+    left: 30%;
+  }
+}
+
+@media all and (max-width : 336px) {
+  /* телефоны */
+  .cover__title {
+    transform: translate(-10%, -50%);
+    top: 45%;
+    left: 20%;
+  }
 }

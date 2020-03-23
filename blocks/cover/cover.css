@@ -12,3 +12,36 @@
   background: #2A2C2F;
   opacity: 0.3;
 }
+
+@media all and (min-width : 1264px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+  .cover {
+    margin-left: 3rem; /*48*/
+    margin-right: 3rem;
+  }
+}
+
+@media all and (min-width : 1424px) {
+  /* стили для больших мониторов с разрешением 4K */
+  .cover {
+    margin-left: 8rem; /*128*/
+    margin-right: 8rem;
+  }
+}
+
+/*=== 1024 ===*/
+
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .cover {
+    margin-top: 3rem; /*48*/
+  }
+}
+
+@media all and (max-width : 336px) {
+  /* телефоны */
+  .cover {
+    margin-top: 4rem; /*64*/
+  }
+}
