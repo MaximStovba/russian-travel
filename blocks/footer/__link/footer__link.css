@@ -2,8 +2,8 @@
   margin: 0;
   font-style: normal;
   font-weight: normal;
-  font-size: 24px;
-  line-height: 41px;
+  font-size: 1.5rem; /*24*/
+  line-height: 2.5625rem; /*41*/
   color: #FFFFFF;
   text-decoration: none;
 }
@@ -13,4 +13,20 @@
   /* ссылка при наведении мыши плавно становиться немного прозрачной */
   opacity: 0.7;
   transition: opacity 1s ease;
+}
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .footer__link {
+    font-size: 1rem; /*16*/
+    line-height: 1.6875rem; /*27*/
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .footer__link {
+    font-size: 1.5rem; /*24*/
+    line-height: 2.5625rem; /*41*/
+  }
 }

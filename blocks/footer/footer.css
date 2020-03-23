@@ -3,10 +3,38 @@
 @import url(./__copyright/footer__copyright.css);
 
 .footer {
-margin: 160px 48px 0 48px;
-padding-bottom: 48px;
+margin: 10rem 3rem 0 3rem; /* 160px 48px 0 48px */
+padding-bottom: 3rem; /* 48px */
 display: flex;
 flex-direction: row;
 justify-content: space-between;
 align-items: stretch;
+}
+
+@media all and (min-width : 1424px) {
+  /* стили для больших мониторов с разрешением 4K */
+  .footer {
+    margin-left: 8.rem; /*128*/
+    margin-right: 8.rem; /*128*/
+  }
+}
+
+/*=== 1024 ===*/
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .footer {
+    margin: 6.375rem 1.4375rem 0 1.4375rem; /* 102px 23px 0 23px */
+    padding-bottom: 1.5rem; /* 24px */
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .footer {
+    margin: 4rem 1rem 0 1rem; /* 64px 16px 0 16px */
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+  }
 }

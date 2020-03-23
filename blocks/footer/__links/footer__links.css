@@ -3,8 +3,17 @@
   display: grid;
   grid-template-columns: repeat(5, minmax(min-content, max-content));
   grid-template-rows: minmax(min-content, max-content);
-  grid-column-gap: 18px;
+  grid-column-gap: 1.125rem; /*18*/
   /*расположение текста левый нижний угол*/
   justify-items: start;
   align-items: end;
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .footer__links {
+    grid-template-columns: minmax(min-content, max-content);
+    grid-template-rows: repeat(5, minmax(min-content, max-content));
+    grid-row-gap: 2rem; /*32*/
+  }
 }

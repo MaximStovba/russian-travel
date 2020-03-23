@@ -12,3 +12,11 @@
   justify-content: flex-end;
   align-items: flex-end;
 }
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .footer__copyright {
+    margin-top: 3rem; /*48*/
+    justify-content: flex-start;
+  }
+}
