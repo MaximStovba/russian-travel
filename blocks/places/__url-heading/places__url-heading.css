@@ -9,7 +9,7 @@
   color: #AAAAAA;
 }
 
-@media all and (max-width : 464px) {
+@media all and (max-width : 616px) { /* замена 464px на 616px */
   /* телефоны */
   .places__url-heading {
     font-size: 0;

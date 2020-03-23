@@ -23,7 +23,7 @@
   }
 }
 
-@media all and (max-width : 464px) {
+@media all and (max-width : 660px) { /* замена 464px на 660px */
   /* телефоны */
   .footer__link {
     font-size: 1.5rem; /*24*/

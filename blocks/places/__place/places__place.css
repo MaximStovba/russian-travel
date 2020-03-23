@@ -34,7 +34,7 @@
   }
 }
 
-@media all and (max-width : 464px) {
+@media all and (max-width : 616px) { /* замена 464px на 616px */
   /* телефоны */
   .places__place {
     grid-template-columns: 1fr; /*320 и 375*/

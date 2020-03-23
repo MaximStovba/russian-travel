@@ -8,6 +8,22 @@
   color: #FFFFFF;
 }
 
+@media all and (max-width : 730px) {
+  /* стили для планшета */
+  .lead__title {
+    font-size: 4.5rem; /* 96px / 16px */
+    line-height: 96.88%; /* 93px */
+  }
+}
+
+@media all and (max-width : 520px) {
+  /* телефоны */
+  .lead__title {
+    font-size: 3.5rem; /* 40px */
+    line-height: 1.1; /* 44px */
+  }
+}
+
 @media all and (max-width : 464px) {
   /* телефоны */
   .lead__title {
