@@ -1,3 +1,25 @@
 .comments__comment {
-  
+  margin: 0;
+  display: grid;
+  /**/
+  grid-template-columns: minmax(min-content, max-content);
+  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  grid-row-gap: 0;
+  grid-template-areas:
+    "c_image"
+    "c_quote"
+    "c_author";
+  /**/
+  justify-items: start; /*center*/
+}
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .comments__comment {
+    grid-template-areas:
+      "c_image"
+      "c_author"
+      "c_quote";
+    justify-items: center;
+  }
 }

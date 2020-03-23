@@ -1,7 +1,9 @@
 .comments__image {
   margin: 0;
   border-radius: 50%;
-  width: 97px;
-  height: 97px;
+  width: 6.0625rem; /*97*/
+  height: 6.0625rem;
   background: #C4C4C4;
+  /**/
+  grid-area: c_image;
 }

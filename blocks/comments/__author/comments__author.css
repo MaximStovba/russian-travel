@@ -1,9 +1,19 @@
 .comments__author {
   margin: 0;
-  margin-top: 16px;
+  margin-top: 1rem; /*16*/
   font-style: normal;
   font-weight: 900;
-  font-size: 14px;
-  line-height: 24px;
+  font-size: 0.875rem; /*14*/
+  line-height: 1.5rem; /*24*/
   color: #FFFFFF;
+  /**/
+  grid-area: c_author;
+  /**/
+}
+
+@media all and (min-width : 1264px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+  .comments__author {
+    margin-top: 1.5rem; /*24*/
+  }
 }
