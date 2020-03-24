@@ -1,8 +1,15 @@
 .cover__cover-bg {
   margin: 0;
   width: 100%;
-  height: auto;
+  height: 35.125rem; /*562*/
   background-size: contain;
+}
+
+@media all and (min-width : 1264px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+  .cover__cover-bg {
+    height: 37.125rem; /*594*/
+  }
 }
 
 @media all and (max-width : 784px) {
