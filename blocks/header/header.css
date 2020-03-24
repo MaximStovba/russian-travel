@@ -8,7 +8,7 @@
 .header {
   /* Основной код для разрешения 1024px */
   height: 3.25rem; /*52*/
-  margin: 0 3rem 0 3rem; /* правый и левый отступы */
+  margin: 0 3rem 0 3rem; /* правый и левый отступы 48 */
   background-color: #2A2C2F;
 
   display: flex;
@@ -17,7 +17,7 @@
   align-items: stretch;
 }
 
-@media all and (min-width : 1100px) {
+@media all and (min-width : 1424px) {
   /* стили для компьютеров и ноутбуков */
   .header {
     margin-left: 8rem; /*128*/
@@ -29,7 +29,7 @@
   /* стили для планшета */
   .header {
     margin-left: 1.5rem; /*24*/
-    margin-right: 8rem;
+    margin-right: 1.5rem;
   }
 }
 
