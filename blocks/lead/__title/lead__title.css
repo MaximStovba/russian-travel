@@ -6,6 +6,7 @@
   line-height: 96.88%; /* 93px */
   text-align: center;
   color: #FFFFFF;
+  max-width: 48.875rem; /*782px*/
 }
 
 @media all and (max-width : 730px) {
@@ -13,6 +14,7 @@
   .lead__title {
     font-size: 4.5rem; /* 96px / 16px */
     line-height: 96.88%; /* 93px */
+    max-width: 45rem; /*720px*/
   }
 }
 
@@ -21,6 +23,7 @@
   .lead__title {
     font-size: 3.5rem; /* 40px */
     line-height: 1.1; /* 44px */
+    max-width: 35rem; /*560px*/
   }
 }
 
@@ -29,5 +32,15 @@
   .lead__title {
     font-size: 2.5rem; /* 40px */
     line-height: 1.1; /* 44px */
+    max-width: 21.4375rem; /*343px*/
+  }
+}
+
+@media all and (max-width : 336px) {
+  /* телефоны */
+  .lead__title {
+    font-size: 2.5rem; /* 40px */
+    line-height: 1.1; /* 44px */
+    max-width: 18rem; /*288px*/
   }
 }

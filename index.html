@@ -11,23 +11,15 @@
     <div class="page">
         <header class="header">
           <img class="header__logo" alt="Лого Россия" src="./images/header__logo.svg">
-          <nav class="header__langs">
-            <label for="one-lang" class="header__lang">
-              <span class="header__label-lang">Ru</span>
-              <input type="radio" name="all_langs" id="one-lang" class="header__select-lang" value="one-lang" checked>
-              <span class="header__pseudo-item"></span>
-            </label>
-            <label for="two-lang" class="header__lang">
-              <span class="header__label-lang">En</span>
-              <input type="radio" name="all_langs" id="two-lang" class="header__select-lang" value="two-lang">
-              <span class="header__pseudo-item"></span>
-            </label>
-          </nav>
+          <ul class="header__langs">
+            <li class="header__lang"><a class="header__lang_status_activ" href="#">Ru</a></li>
+            <li class="header__lang"><a class="header__lang_status_activ" href="#">En</a></li>
+          </ul>
         </header>
 
         <main class="content">
             <section class="lead">
-              <h1><p class="lead__title">Путешествия</p><p class="lead__title">по России</p></h1>
+              <h1><p class="lead__title">Путешествия по России</p></h1>
               <p class="lead__subtitle">Настоящая страна не в выпусках</p><p class="lead__subtitle">новостей, а здесь.</p>
               <div class="lead__image">
                 <img src="./images/lead_image.png" alt="Вагон поезда" class="lead__image_name_bg">
@@ -67,7 +59,7 @@
               <div class="places__place">
                 <h2 class="places__title">Куршская коса</h2>
                 <div class="places__website">
-                  <h4 class="places__url-heading">URL</h4>
+                  <p class="places__url-heading">URL</p>
                   <a href="http://www.park-kosa.ru" class="places__url">park-kosa.ru</a>
                 </div>
                 <img src="./images/__image-kosa.png" alt="Куршская коса" class="places__image">
@@ -79,7 +71,7 @@
               <div class="places__place">
                 <h2 class="places__title">Кольский</h2>
                 <div class="places__website">
-                  <h4 class="places__url-heading">URL</h4>
+                  <p class="places__url-heading">URL</p>
                   <a href="https://yourshot.nationalgeographic.com/photos/?keywords=kolskiy" class="places__url">National Geographic</a>
                 </div>
                 <img src="./images/__image-kolsky.png" alt="Кольский" class="places__image">
@@ -89,9 +81,9 @@
                 </div>
               </div>
               <div class="places__place">
-                <h2 class="places__title">Алтай</h2>
+                <p class="places__title">Алтай</p>
                 <div class="places__website">
-                  <h4 class="places__url-heading">URL</h4>
+                  <p class="places__url-heading">URL</p>
                   <a href="https://www.facebook.com/vera.bashmakova/posts/10156011613718822" class="places__url">Facebook</a>
                 </div>
                 <img src="./images/__image-altay.png" alt="Алтай" class="places__image">
@@ -103,7 +95,7 @@
               <div class="places__place">
                 <h2 class="places__title">Зимний Байкал</h2>
                 <div class="places__website">
-                  <h4 class="places__url-heading">URL</h4>
+                  <p class="places__url-heading">URL</p>
                   <a href="https://vk.com/baikalmile" class="places__url">https://vk.com/baikalmile</a>
                 </div>
                 <img src="./images/__image-baykal.png" alt="Зимний Байкал" class="places__image">
@@ -115,7 +107,7 @@
               <div class="places__place">
                 <h2 class="places__title">Карелия</h2>
                 <div class="places__website">
-                  <h4 class="places__url-heading">URL</h4>
+                  <p class="places__url-heading">URL</p>
                   <a href="http://vodlozero.ru/" class="places__url">http://vodlozero.ru/</a>
                 </div>
                 <img src="./images/__image-karelya.png" alt="Карелия" class="places__image">
@@ -126,7 +118,7 @@
             </section>
 
             <section class="video">
-              <h2><p class="content-title">В глубины Земли</p><p class="content-title">и в дальний космос</p></h2>
+              <h2><p class="content-title">В глубины Земли и в дальний космос</p></h2>
               <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
               <div class="video__container">
                 <a href="https://vimeo.com/81106671" class="video__item">
@@ -147,22 +139,22 @@
             </section>
 
             <section class="comments">
-              <h2><p class="content-title">Фотографы,</p><p class="content-title">снимающие Россию</p></h2>
+              <h2><p class="content-title">Фотографы, снимающие Россию</p></h2>
               <p class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
               <div class="comments__container">
                 <div class="comments__comment">
                   <img src="./images/comment_vl.png" alt="Виктор Лягушкин" class="comments__image">
-                  <p class="comments__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</p>
+                  <blockquote class="comments__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</blockquote>
                   <p class="comments__author">Виктор Лягушкин</p>
                 </div>
                 <div class="comments__comment">
                   <img src="./images/comment_ih.png" alt="Иван Хафизов" class="comments__image">
-                  <p class="comments__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</p>
+                  <blockquote class="comments__quote">«Если в город едут туристы — неважно за чем они туда едут: за шамбалой или фрески Рублева искать, или на родину Тарковского — туристы обеспечивают любой город молодёжью, рабочими местами и в конечном счёте наполняют его жизнью.»</blockquote>
                   <p class="comments__author">Иван Хафизов</p>
                 </div>
                 <div class="comments__comment">
                   <img src="./images/comment_sm.png" alt="Сергей Максимишин" class="comments__image">
-                  <p class="comments__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</p>
+                  <blockquote class="comments__quote">«Ты приезжаешь, и люди рассказывают тебе, как им плохо. А когда ты покажешь, как им плохо, то ты сволочь и всё очернил.»</blockquote>
                   <p class="comments__author">Сергей Максимишин</p>
                 </div>
               </div>

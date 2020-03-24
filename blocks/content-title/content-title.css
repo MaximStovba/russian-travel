@@ -6,6 +6,14 @@
   line-height: 4.875rem; /*78*/
   text-align: center;
   color: #FFFFFF;
+  max-width: 47rem;
+}
+
+@media all and (min-width : 1264px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+  .content-title {
+    max-width: 50rem;
+  }
 }
 
 @media all and (max-width : 784px) {
@@ -13,6 +21,7 @@
   .content-title {
     font-size: 2.625rem; /*42*/
     line-height: 2.875rem; /*46*/
+    max-width: 38rem;
   }
 }
 
@@ -21,5 +30,13 @@
   .content-title {
     font-size: 2rem; /*32*/
     line-height: 2.1875rem; /*35*/
+    max-width: 21.4375rem;
+  }
+}
+
+@media all and (max-width : 336px) {
+  /* телефоны */
+  .content-title {
+    max-width: 18rem;
   }
 }

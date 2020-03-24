@@ -1,12 +1,26 @@
 .header__lang {
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: stretch;
+  font-style: normal;
+  font-weight: normal; /* начертание */
+  font-size: 1.5rem; /* размер шрифта 24px */
+  line-height: calc(1.5rem - 1px); /* высота строки 23px */
   }
 
 .header__lang:nth-of-type(1) {
   margin-right: 1.125rem; /*18*/
+}
+
+.header__lang:hover {
+  /* ссылка при наведении мыши плавно становиться немного прозрачной */
+  opacity: 0.7;
+  transition: opacity 1s ease;
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .header__lang {
+    font-size: 1.125rem; /* размер шрифта 18px */
+    line-height: calc(1.125rem - 1px); /* высота строки 17px */
+  }
 }
 
 @media all and (max-width : 464px) {
