@@ -1,7 +1,4 @@
-@import url(./_name/lead__image_name_bg.css);
-@import url(./_name/lead__image_name_roadmap.css);
-
-.lead__image {
+.lead__images {
   position: relative;
   margin: 0;
   margin-top: 4.875rem; /* 78px */
@@ -11,7 +8,7 @@
 
 @media all and (max-width : 375px) {
   /* стили для среднего смартфона */
-  .lead__image {
+  .lead__images {
     margin-top: 2rem; /* 32px */
   }
 }

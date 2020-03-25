@@ -1,0 +1,22 @@
+/*=== 1024 ===*/
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .video__duration_position_exception {
+    top: 53%;
+  }
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .video__duration_position_exception {
+    top: 53%;
+  }
+}
+
+@media all and (max-width : 336px) {
+  /* телефоны */
+  .video__duration_position_exception {
+    top: 55%;
+  }
+}

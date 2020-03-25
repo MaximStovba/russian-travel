@@ -1,8 +1,0 @@
-.header__lang_status_activ {
-  color: #FFFFFF;
-  text-decoration: none;
-}
-
-.header__lang_status_activ:active {
-  border-bottom: 2px white solid;
-}

@@ -1,12 +1,28 @@
 .video__duration {
   margin: 0;
   position: absolute;
-  top: 40%; /*125/288*/
+  top: 43%;
   left: 6.58%;
   font-style: normal;
   font-weight: 500;
-  font-size: 12px;
-  line-height: 13px;
-  letter-spacing: 0.3em;
+  font-size: 0.75rem; /*12*/
+  line-height: 0.8125rem; /*13*/
+  letter-spacing: 0; /* 0.3em */
   color: #FFFFFF;
 }
+
+@media all and (min-width : 1264px) {
+  /* стили для больших настольных компьютеров и ноутбуков */
+  .video__duration {
+    top: 48%;
+  }
+}
+
+@media all and (min-width : 1424px) {
+  /* стили для больших мониторов с разрешением 4K */
+  .video__duration {
+    top: 49%;
+  }
+}
+
+/*=== 1024 ===*/

@@ -12,18 +12,18 @@
         <header class="header">
           <img class="header__logo" alt="Лого Россия" src="./images/header__logo.svg">
           <ul class="header__langs">
-            <li class="header__lang"><a class="header__lang_status_activ" href="#">Ru</a></li>
-            <li class="header__lang"><a class="header__lang_status_activ" href="#">En</a></li>
+            <li class="header__lang"><a class="header__lang-check header__lang-check_status_active" href="#">Ru</a></li> <!-- имя-блока__имя-элемента_имя-модификатора_значение-модификатора -->
+            <li class="header__lang"><a class="header__lang-check" href="#">En</a></li>
           </ul>
         </header>
 
         <main class="content">
             <section class="lead">
-              <h1><p class="lead__title">Путешествия по России</p></h1>
+              <h1 class="lead__title">Путешествия по России</h1>
               <p class="lead__subtitle">Настоящая страна не в выпусках</p><p class="lead__subtitle">новостей, а здесь.</p>
-              <div class="lead__image">
-                <img src="./images/lead_image.png" alt="Вагон поезда" class="lead__image_name_bg">
-                <img src="./images/road_map.svg" alt="Карта путешествия" class="lead__image_name_roadmap">
+              <div class="lead__images">
+                <img src="./images/lead_image.png" alt="Вагон поезда" class="lead__image-bg">
+                <img src="./images/road_map.svg" alt="Карта путешествия" class="lead__image-roadmap">
               </div>
               <p class="lead__caption">ваша полка — верхняя</p>
             </section>
@@ -118,20 +118,20 @@
             </section>
 
             <section class="video">
-              <h2><p class="content-title">В&nbsp;глубины Земли и&nbsp;в&nbsp;дальний космос</p></h2>
+              <h2 class="content-title">В&nbsp;глубины Земли и&nbsp;в&nbsp;дальний космос</h2>
               <p class="content-subtitle">Видео от студии Stereotactic о местах в России, где ведутся фундаментальные исследования</p>
               <div class="video__container">
                 <a href="https://vimeo.com/81106671" class="video__item">
                   <img src="./images/Image-kamchatka-b.png" alt="Камчатка" class="video__item-bg">
                   <img src="./images/__icon_play.png" alt="Кнопка запуска" class="video__icon_play">
-                  <p class="video__duration">6:30</p>
-                  <h3 class="video__title">Colors of Kamchatka</h3>
+                  <p class="video__duration video__duration_position_exception">6&nbsp;:&nbsp;3&nbsp;0</p>
+                  <h3 class="video__title">Colors&nbsp;of Kamchatka</h3>
                   <p class="video__subtitle">Director: Pavel Karykhalin</p>
                 </a>
                 <a href="https://vimeo.com/290675450" class="video__item">
                   <img src="./images/Image-observatorya-b.png" alt="Обсерватория" class="video__item-bg">
                   <img src="./images/__icon_play.png" alt="Кнопка запуска" class="video__icon_play">
-                  <p class="video__duration">24:45</p>
+                  <p class="video__duration">2&nbsp;4&nbsp;:&nbsp;4&nbsp;5</p>
                   <h3 class="video__title">Обсерватория | Observatory</h3>
                   <p class="video__subtitle">Director: Alexander Khudokon</p>
                 </a>
@@ -139,7 +139,7 @@
             </section>
 
             <section class="comments">
-              <h2><p class="content-title">Фотографы, снимающие Россию</p></h2>
+              <h2 class="content-title">Фотографы, снимающие Россию</h2>
               <p class="content-subtitle">Природа и люди вдохновили их работы, удостоенные наград на международных конкурсах</p>
               <div class="comments__container">
                 <div class="comments__comment">
@@ -175,7 +175,7 @@
             <a href="#" class="footer__link">Календарь</a>
             <a href="#" class="footer__link">Путешествия</a>
           </nav>
-          <p class="footer__copyright">© 2019. Стовба М.А.</p>
+          <p class="footer__copyright">© 2020. Стовба М.А.</p>
         </footer>
     </div>
 </body>

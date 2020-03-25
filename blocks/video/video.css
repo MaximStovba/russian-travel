@@ -3,6 +3,7 @@
 @import url(./__item-bg/video__item-bg.css);
 @import url(./__icon_play/video__icon_play.css);
 @import url(./__duration/video__duration.css);
+@import url(./__duration/_position/video__duration_position_exception.css);
 @import url(./__title/video__title.css);
 @import url(./__subtitle/video__subtitle.css);
 
