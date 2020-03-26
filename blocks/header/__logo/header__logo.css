@@ -1,4 +1,13 @@
 .header__logo {
   height: 100%;
-  width: auto;
+  max-width: 11.03625rem; /*176.58*/
+}
+
+/*=== 1024 ===*/
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .header__logo {
+    max-width: 8.875rem; /*142*/
+  }
 }
