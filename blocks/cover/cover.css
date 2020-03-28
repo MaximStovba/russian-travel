@@ -6,6 +6,8 @@
   margin: 0;
   margin-top: 102px;
   position: relative;
+  overflow: hidden;
+  text-align: center;
 }
 
 .cover:hover .cover__cover-bg {

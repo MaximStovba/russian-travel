@@ -1,5 +1,7 @@
 .footer__links {
-  margin: 0;
+  margin: 0; /* Отступ слева в браузере IE и Opera */
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+ 	
   display: grid;
   grid-template-columns: repeat(5, minmax(min-content, max-content));
   grid-template-rows: minmax(min-content, max-content);
