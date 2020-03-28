@@ -1,5 +1,6 @@
 .comments__comment {
   margin: 0;
+  font-size: 0;
   display: grid;
   /**/
   grid-template-columns: minmax(min-content, max-content);
