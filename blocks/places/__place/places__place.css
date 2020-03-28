@@ -6,7 +6,7 @@
   grid-template-columns: 27.5rem 1fr; /*440*/
   grid-template-rows: 1fr fit-content(27.5rem); /* 440 | minmax(min-content, max-content) */
   grid-column-gap: 2rem; /*32*/
-  grid-row-gap: 3.75rem; /*60*/
+  grid-row-gap: 50px; /*50*/
   grid-template-areas:
     "title website"
     "image paragraphs";
@@ -18,6 +18,7 @@
     grid-template-columns: 28.75rem 1fr; /*460*/
     grid-template-rows: 1fr fit-content(28.75rem); /*460*/
     grid-column-gap: 2.5rem; /*40*/
+    grid-row-gap: 60px; /*60*/
   }
 }
 
@@ -30,7 +31,7 @@
     grid-template-columns: 21.25rem 1fr; /*340*/
     grid-template-rows: 1fr fit-content(21.25rem); /*340*/
     grid-column-gap: 1.75rem; /*28*/
-    grid-row-gap: 2.5rem; /*40*/
+    grid-row-gap: 59px; /*59*/
   }
 }
 
@@ -39,7 +40,6 @@
   .places__place {
     grid-template-columns: 1fr; /*320 и 375*/
     grid-template-rows: min-content minmax(min-content, max-content) min-content; /*320 и 375*/
-    grid-row-gap: 0;
     grid-column-gap: 0;
     grid-template-areas:
       "title"

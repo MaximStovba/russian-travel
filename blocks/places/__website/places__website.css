@@ -1,8 +1,11 @@
 .places__website {
   margin: 0;
   grid-area: website;
-  display: flex;
-  flex-direction: column;
-  justify-content: flex-end;
-  align-items: flex-start;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(2, min-content);
+  grid-row-gap: 16px;
+  /*выравниваем всю сетку по нижнему краю*/
+  justify-content: start;
+  align-content: end;
 }

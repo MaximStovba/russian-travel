@@ -1,14 +1,17 @@
 .places__title {
   margin: 0;
   grid-area: title;
-  justify-items: start; /*выравнивание содержимого*/
-  align-items: start; /*выравнивание содержимого*/
   font-style: normal;
   font-weight: 900;
   font-size: 4.5rem; /*72*/
   line-height: 0.9028; /*65*/
   color: #FFFFFF;
+  /*выравнивание содержимого*/
+  align-self: end;
+  justify-self: start;
 }
+
+/*=== 1024 ===*/
 
 @media all and (max-width : 784px) {
   /* стили для планшета */

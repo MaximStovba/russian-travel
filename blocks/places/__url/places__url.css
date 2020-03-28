@@ -6,6 +6,9 @@
   line-height: 1.875rem;
   text-decoration: none; /* Отменяем подчеркивание у ссылки */
   color: #FFFFFF;
+  /*выравниваем содержимое*/
+  justify-items: start;
+  align-items: end;
 }
 
 .places__url:hover {
