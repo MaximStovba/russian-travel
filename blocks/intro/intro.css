@@ -1,7 +1,8 @@
 @import url(./__title/intro__title.css);
 @import url(./__content-row/intro__content-row.css);
+@import url(./__text-block/intro__text-block.css);
 @import url(./__text/intro__text.css);
-@import url(./__text/_style/intro__text_style_bold.css);
+@import url(./__text-bold/intro__text-bold.css);
 
 .intro {
   margin: 0;

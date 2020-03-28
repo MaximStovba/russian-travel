@@ -8,24 +8,18 @@
   /* сетка */
   display: grid;
   align-items: center;
-  grid-template-columns: repeat(3, 300px); /*300*/
+  grid-template-columns: repeat(3, 1fr); /*300*/
   grid-template-rows: repeat(4, 1fr);
-  grid-gap: 1rem; /*16px*/
+  grid-gap: 14px; /*14px*/
 }
 
-@media all and (min-width : 1025px) {           /*------!!!!!1025!!!!------*/
-  /* стили для больших мониторов с разрешением 4K */
-  .photo-grid {
-    grid-template-columns: repeat(3, 1fr); /*300*/
-    grid-template-rows: repeat(4, 1fr);
-  }
-}
 
 @media all and (min-width : 1264px) {
   /* стили для больших настольных компьютеров и ноутбуков */
   .photo-grid {
     grid-template-columns: repeat(4, 1fr); /*284*/
     grid-template-rows: repeat(3, 1fr);
+    grid-gap: 16px; /*16px*/
   }
 }
 
@@ -39,13 +33,6 @@
 
 /* === 1024 === */
 
-@media all and (max-width : 1023px) {            /*------!!!!!1023!!!!------*/
-  /* стили для больших мониторов с разрешением 4K */
-  .photo-grid {
-    grid-template-columns: repeat(3, 1fr); /*300*/
-    grid-template-rows: repeat(4, 1fr);
-  }
-}
 
 @media all and (max-width : 784px) {
   /* стили для планшета */
@@ -55,6 +42,7 @@
     margin-right: 1.5rem; /*24*/
     grid-template-columns: repeat(2, 1fr); /*352*/
     grid-template-rows: repeat(6, 1fr);
+    grid-gap: 16px; /*16px*/
   }
 }
 

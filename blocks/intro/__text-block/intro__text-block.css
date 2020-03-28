@@ -1,0 +1,12 @@
+.intro__text-block {
+  margin: 0; /* Отступ слева в браузере IE и Opera margin-left: 0; */
+  margin-top: 1.5rem; /*24px*/
+  padding-left: 0; /* Отступ слева в браузере Firefox, Safari, Chrome */
+}
+
+@media all and (max-width : 464px) {
+  /* телефоны */
+  .intro__text-block {
+    margin-top: 2rem; /*32px*/
+  }
+}
