@@ -1,0 +1,25 @@
+.video__icon-play {
+  z-index: 1;
+  margin: 0;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+/*=== 1024 ===*/
+
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .video__icon-play {
+    padding-top: 24px;
+    padding-left: 24px;
+  }
+}
+
+@media all and (max-width : 336px) {
+  /* телефоны */
+  .video__icon-play {
+    padding-top: 16px;
+    padding-left: 16px;
+  }
+}

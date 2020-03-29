@@ -1,28 +1,39 @@
 .video__duration {
-  margin: 0;
-  position: absolute;
-  top: 43%;
-  left: 6.58%;
+  z-index: 1;
   font-style: normal;
   font-weight: 500;
-  font-size: 0.75rem; /*12*/
-  line-height: 0.8125rem; /*13*/
-  letter-spacing: 0; /* 0.3em */
+  font-size: 12px;
+  line-height: 13px;
+  letter-spacing: 0;
   color: #FFFFFF;
+  margin: 0;
+  padding-top: 54px;
+  padding-left: 30px;
 }
 
 @media all and (min-width : 1264px) {
   /* стили для больших настольных компьютеров и ноутбуков */
   .video__duration {
-    top: 48%;
+    padding-top: 94px;
   }
 }
 
-@media all and (min-width : 1424px) {
-  /* стили для больших мониторов с разрешением 4K */
-  .video__duration {
-    top: 49%;
-  }
-}
 
 /*=== 1024 ===*/
+
+
+@media all and (max-width : 784px) {
+  /* стили для планшета */
+  .video__duration {
+    padding-top: 17px;
+    padding-left: 24px;
+  }
+}
+
+@media all and (max-width : 336px) {
+  /* телефоны */
+  .video__duration {
+    padding-top: 23px;
+    padding-left: 16px;
+  }
+}

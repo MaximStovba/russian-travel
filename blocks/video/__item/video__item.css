@@ -1,9 +1,20 @@
 .video__item {
-  margin: 0;
+  display: block;
+  background-size: cover;
+  background-position: center;
+  background-image: url(../../../../images/Image-kamchatka-b.png);
+
+  border-radius: 5px;
+  text-decoration: none;
   position: relative;
+
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
 }
 
-.video__item:hover .video__item-bg {
-  background: #000000;
+.video__item:hover .video__overlay {
+  background-color: #000000;
   opacity: 0.5;
 }
