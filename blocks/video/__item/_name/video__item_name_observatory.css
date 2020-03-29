@@ -1,9 +1,10 @@
 .video__item_name_observatory {
   background-size: cover;
-  background: #000000;
+  background-position: center;
   background-image: url(../../../../images/Image-observatorya-b.png);
 }
 
-.video__item_name_observatory:hover {
+.video__item_name_observatory:hover .video__overlay {
+  background-color: #000000;
   opacity: 0.5;
 }
