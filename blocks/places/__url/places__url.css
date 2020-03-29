@@ -4,7 +4,7 @@
   font-weight: normal;
   font-size: 1.125rem;
   line-height: 1.875rem;
-  text-decoration: none; /* Отменяем подчеркивание у ссылки */
+  text-decoration-line: underline; /* подчеркивание у ссылки */
   color: #FFFFFF;
   /*выравниваем содержимое*/
   justify-items: start;
@@ -13,7 +13,8 @@
 
 .places__url:hover {
   color: #FFFFFF;
-  text-decoration-line: underline;
+  opacity: 0.7;
+  transition: opacity 1s ease;
 }
 
 .places__url:link {

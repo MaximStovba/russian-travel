@@ -1,7 +1,5 @@
 .places__place {
-  margin: 0;
-  /*max-width: 58rem; /*928*/
-
+  margin: auto;
   display: grid;
   grid-template-columns: 27.5rem 1fr; /*440*/
   grid-template-rows: 1fr fit-content(27.5rem); /* 440 | minmax(min-content, max-content) */
