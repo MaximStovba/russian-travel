@@ -9,3 +9,10 @@
   justify-content: start;
   align-content: end;
 }
+
+@media all and (max-width : 750px) { /* замена 464px на 750px */
+  /* телефоны */
+  .places__website {
+    display: none;
+  }
+}

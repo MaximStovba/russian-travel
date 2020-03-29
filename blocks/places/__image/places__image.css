@@ -4,7 +4,7 @@
   width: 100%;
 }
 
-@media all and (max-width : 616px) { /* замена 464px на 616px */
+@media all and (max-width : 750px) { /* замена 464px на 750px */
   /* телефоны */
   .places__image {
     margin-top: 2rem;

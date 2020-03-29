@@ -21,7 +21,7 @@
 /*=== 1024 ===*/
 
 
-@media all and (max-width : 784px) {
+@media all and (max-width : 900px) { /* замена 784px на 900px */
   /* стили для планшета */
   .places__paragraph {
     font-size: 1rem; /*16*/
@@ -29,7 +29,7 @@
   }
 }
 
-@media all and (max-width : 616px) { /* замена 464px на 616px */
+@media all and (max-width : 750px) { /* замена 464px на 750px */
   /* телефоны */
   .places__paragraph {
     margin-left: 1rem;

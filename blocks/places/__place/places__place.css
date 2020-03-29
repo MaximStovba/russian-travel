@@ -24,6 +24,25 @@
 
 /*=== 1024 ===*/
 
+@media all and (max-width : 984px) {
+  /* стили для планшета */
+  .places__place {
+    grid-template-columns: 23rem 1fr; /* промежуточный брейкпоинт */
+    grid-template-rows: 1fr fit-content(23rem); /* промежуточный брейкпоинт */
+    grid-column-gap: 1.75rem; /*28*/
+    grid-row-gap: 59px; /*59*/
+  }
+}
+
+@media all and (max-width : 930px) {
+  /* стили для планшета */
+  .places__place {
+    grid-template-columns: 22rem 1fr; /* промежуточный брейкпоинт */
+    grid-template-rows: 1fr fit-content(22rem); /* промежуточный брейкпоинт */
+    grid-column-gap: 1.75rem; /*28*/
+    grid-row-gap: 59px; /*59*/
+  }
+}
 
 @media all and (max-width : 784px) {
   /* стили для планшета */
@@ -35,7 +54,7 @@
   }
 }
 
-@media all and (max-width : 616px) { /* замена 464px на 616px */
+@media all and (max-width : 750px) { /* замена 464px на 750px */
   /* телефоны */
   .places__place {
     grid-template-columns: 1fr; /*320 и 375*/
