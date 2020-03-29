@@ -7,6 +7,7 @@
   margin-top: 3rem; /* 48px */
   margin-left: 3rem;
   margin-right: 3rem;
+  max-width: calc(1024 - (3rem * 2));
   /* параметры флекс-контейнера */
   display: flex;
   flex-direction: column;
@@ -19,6 +20,7 @@
   .lead {
     margin-left: 9.25rem; /* 148px */
     margin-right: 9.25rem;
+    max-width: calc(1280 - (9.25rem * 2));
   }
 }
 
@@ -35,6 +37,20 @@
   .lead {
     margin-left: 0;
     margin-right: 0;
+    max-width: 768px;
   }
 }
 
+@media all and (max-width : 375px) {
+  /* телефоны */
+  .lead {
+    max-width: 375px;
+  }
+}
+
+@media all and (max-width : 320px) {
+  /* телефоны */
+  .lead {
+    max-width: 320px;
+  }
+}
