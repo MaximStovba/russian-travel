@@ -58,6 +58,7 @@
     grid-template-columns: 1fr; /*320 и 375*/
     grid-template-rows: min-content minmax(min-content, max-content) min-content; /*320 и 375*/
     grid-column-gap: 0;
+    grid-row-gap: 0;
     grid-template-areas:
       "title"
       "image"
