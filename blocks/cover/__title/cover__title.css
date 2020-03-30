@@ -1,9 +1,7 @@
 .cover__title {
-  position: absolute;
   margin: 0;
-  transform: translate(-50%, -50%);
-  top: 50%;
-  left: 50%;
+  padding-top: 211px;
+  max-width: 720px;
   font-style: normal;
   font-weight: 900;
   font-size: 4.5rem; /*72*/
@@ -16,8 +14,8 @@
 @media all and (min-width : 1264px) {
   /* стили для больших настольных компьютеров и ноутбуков */
   .cover__title {
-    transform: translate(-7%, -50%);
-    left: 15%;
+    padding-top: 274px;
+    max-width: 1094px;
   }
 }
 
@@ -27,9 +25,7 @@
 @media all and (max-width : 784px) {
   /* стили для планшета */
   .cover__title {
-    transform: translate(-20%, -50%);
-    top: 50%;
-    left: 30%;
+    padding-top: 165px;
   }
 }
 
@@ -38,19 +34,15 @@
   .cover__title {
     font-size: 2rem; /*32*/
     line-height: 2.1875rem; /*35*/
-    left: 1rem;
-    right: 1rem;
-    transform: translate(-20%, -50%);
-    top: 50%;
-    left: 30%;
+    padding-top: 104px;
+    max-width: 343px;
   }
 }
 
 @media all and (max-width : 336px) {
   /* телефоны */
   .cover__title {
-    transform: translate(-10%, -50%);
-    top: 45%;
-    left: 20%;
+    padding-top: 64px;
+    max-width: 288px;
   }
 }
