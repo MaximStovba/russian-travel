@@ -20,7 +20,7 @@
 
 /*=== 1024 ===*/
 
-@media all and (max-width : 784px) {
+@media all and (max-width : 1023px) { /*784 -> 1023*/
   /* стили для планшета */
   .video__container {
     margin-top: 3.5rem; /*56*/
@@ -28,7 +28,7 @@
   }
 }
 
-@media all and (max-width : 620px) { /*464 -> 620*/
+@media all and (max-width : 767px) { /*464 -> 767*/
   /* телефоны */
   .video__container {
     margin-top: 1.5rem; /*24*/
@@ -38,7 +38,7 @@
   }
 }
 
-@media all and (max-width : 336px) {
+@media all and (max-width : 374px) { /*336 -> 374*/
   /* телефоны */
   .video__container {
     grid-template-rows: repeat(2, 192px);

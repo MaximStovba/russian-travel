@@ -1,20 +1,20 @@
 /*=== 1024 ===*/
 
-@media all and (max-width : 784px) {
+@media all and (max-width : 1023px) { /*784 -> 1023*/
   /* стили для планшета */
   .video__duration_position_exception {
     padding-top: 36px;
   }
 }
 
-@media all and (max-width : 464px) {
+@media all and (max-width : 767px) { /*464 -> 767*/
   /* телефоны */
   .video__duration_position_exception {
     padding-top: 41px;
   }
 }
 
-@media all and (max-width : 336px) {
+@media all and (max-width : 374px) { /*336 -> 374*/
   /* телефоны */
   .video__duration_position_exception {
     padding-top: 49px;

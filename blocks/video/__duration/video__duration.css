@@ -22,7 +22,7 @@
 /*=== 1024 ===*/
 
 
-@media all and (max-width : 784px) {
+@media all and (max-width : 1023px) { /*784 -> 1023*/
   /* стили для планшета */
   .video__duration {
     padding-top: 17px;
@@ -30,7 +30,7 @@
   }
 }
 
-@media all and (max-width : 336px) {
+@media all and (max-width : 374px) { /*336 -> 374*/
   /* телефоны */
   .video__duration {
     padding-top: 23px;

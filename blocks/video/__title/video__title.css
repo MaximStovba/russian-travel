@@ -11,7 +11,7 @@
   max-width: 20.125rem;
 }
 
-@media all and (max-width : 784px) {
+@media all and (max-width : 1023px) { /*784 -> 1023*/
   /* стили для планшета */
   .video__title {
     font-size: 1.5rem; /*24*/
@@ -21,7 +21,7 @@
   }
 }
 
-@media all and (max-width : 336px) {
+@media all and (max-width : 374px) { /*336 -> 374*/
   /* стили для планшета */
   .video__title {
     padding-left: 16px;

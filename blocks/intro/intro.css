@@ -5,10 +5,8 @@
 @import url(./__text-bold/intro__text-bold.css);
 
 .intro {
-  margin: 0;
-  margin-top: 5rem; /* 80px */
-  margin-left: 3rem; /* 48px */
-  margin-right: 3rem; /* 48px */
+  margin: 5rem auto 0; /* 80px */
+  max-width: 928px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -18,26 +16,51 @@
 @media all and (min-width : 1264px) {
   /* стили для больших настольных компьютеров и ноутбуков */
   .intro {
-    margin-left: 9.25rem; /* 148px */
-    margin-right: 9.25rem; /* 148px */
-  }
-}
-
-@media all and (min-width : 1424px) {
-  /* стили для больших мониторов с разрешением 4K */
-  .intro {
-    margin-left: 14.25rem; /* 228px */
-    margin-right: 14.25rem; /* 228px */
+    max-width: 984px;
   }
 }
 
 /* === 1024 === */
 
+@media all and (max-width : 1000px) { /*промежуточный брейк-поинт*/
+  /* стили для планшета */
+  .intro {
+    max-width: 900px;
+  }
+}
+
+@media all and (max-width : 900px) { /*промежуточный брейк-поинт*/
+  /* стили для планшета */
+  .intro {
+    max-width: 800px;
+  }
+}
+
 @media all and (max-width : 784px) {
   /* стили для планшета */
   .intro {
-    margin-left: 1.5rem; /* 24px */
-    margin-right: 1.5rem; /* 24px */
+    max-width: 720px;
+  }
+}
+
+@media all and (max-width : 750px) { /*промежуточный брейк-поинт*/
+  /* стили для планшета */
+  .intro {
+    max-width: 620px;
+  }
+}
+
+@media all and (max-width : 650px) { /*промежуточный брейк-поинт*/
+  /* стили для планшета */
+  .intro {
+    max-width: 520px;
+  }
+}
+
+@media all and (max-width : 550px) { /*промежуточный брейк-поинт*/
+  /* стили для планшета */
+  .intro {
+    max-width: 420px;
   }
 }
 
@@ -45,8 +68,14 @@
   /* телефоны */
   .intro {
     margin-top: 4rem; /* 64px */
-    margin-left: 1rem; /* 16px */
-    margin-right: 1rem; /* 16px */
+    max-width: 343px;
+  }
+}
+
+@media all and (max-width : 336px) {
+  /* телефоны */
+  .intro {
+    max-width: 288px;
   }
 }
 

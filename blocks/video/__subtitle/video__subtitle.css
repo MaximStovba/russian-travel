@@ -13,7 +13,7 @@
 /*=== 1024 ===*/
 
 
-@media all and (max-width : 784px) {
+@media all and (max-width : 1023px) { /*784 -> 1023*/
   /* стили для планшета */
   .video__subtitle {
     padding-top: 12px;
@@ -21,14 +21,14 @@
   }
 }
 
-@media all and (max-width : 464px) {
+@media all and (max-width : 767px) { /*464 -> 767*/
   /* телефоны */
   .video__subtitle {
     padding-top: 3px;
   }
 }
 
-@media all and (max-width : 336px) {
+@media all and (max-width : 374px) { /*336 -> 374*/
   /* телефоны */
   .video__subtitle {
     padding-top: 4px;
