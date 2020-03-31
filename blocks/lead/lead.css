@@ -1,13 +1,12 @@
 @import url(./__title/lead__title.css);
 @import url(./__subtitle/lead__subtitle.css);
+@import url(./__figure/lead__figure.css);
 @import url(./__image/lead__image.css);
 @import url(./__caption/lead__caption.css);
 
 .lead {
-  margin-top: 3rem; /* 48px */
-  margin-left: 3rem;
-  margin-right: 3rem;
-  max-width: calc(1024 - (3rem * 2));
+  margin: 48px auto 0;
+  max-width: 928px;
   /* параметры флекс-контейнера */
   display: flex;
   flex-direction: column;
@@ -18,25 +17,15 @@
 @media all and (min-width : 1264px) {
   /* стили для больших настольных компьютеров и ноутбуков */
   .lead {
-    margin-left: 9.25rem; /* 148px */
-    margin-right: 9.25rem;
-    max-width: calc(1280 - (9.25rem * 2));
+    max-width: 985px;
   }
 }
 
-@media all and (min-width : 1424px) {
-  /* стили для больших мониторов с разрешением 4K */
-  .lead {
-    margin-left: 14.25rem; /* 228px */
-    margin-right: 14.25rem;
-  }
-}
+/* 1024 */
 
 @media all and (max-width : 784px) {
   /* стили для планшета */
   .lead {
-    margin-left: 0;
-    margin-right: 0;
     max-width: 768px;
   }
 }
