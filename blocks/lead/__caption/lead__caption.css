@@ -12,14 +12,14 @@
   align-self: flex-start;
 }
 
-@media all and (max-width : 784px) {
+@media all and (max-width : 1023px) { /*784 -> 1023*/
   /* стили для планшета */
   .lead__caption {
     margin-left: 1.5rem; /*24*/
   }
 }
 
-@media all and (max-width : 464px) {
+@media all and (max-width : 767px) { /*464 -> 767*/
   /* стили для среднего смартфона */
   .lead__caption {
     margin-top: 0.5rem; /* 8px */

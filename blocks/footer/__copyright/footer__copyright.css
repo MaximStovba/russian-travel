@@ -13,7 +13,7 @@
   align-items: flex-end;
 }
 
-@media all and (max-width : 660px) { /* замена 464px на 660px */
+@media all and (max-width : 767px) { /*464 (660) -> 767*/
   /* телефоны */
   .footer__copyright {
     margin-top: 3rem; /*48*/

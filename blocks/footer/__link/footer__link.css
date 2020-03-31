@@ -6,6 +6,11 @@
   line-height: 2.5625rem; /*41*/
   color: #FFFFFF;
   text-decoration: none;
+  /*расположение текста левый нижний угол*/
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
 }
 
 .footer__link:hover {
@@ -15,7 +20,7 @@
   transition: opacity 1s ease;
 }
 
-@media all and (max-width : 784px) {
+@media all and (max-width : 1023px) { /*784 -> 1023*/
   /* стили для планшета */
   .footer__link {
     font-size: 1rem; /*16*/
@@ -23,7 +28,7 @@
   }
 }
 
-@media all and (max-width : 660px) { /* замена 464px на 660px */
+@media all and (max-width : 767px) { /*464 (660) -> 767*/
   /* телефоны */
   .footer__link {
     font-size: 1.5rem; /*24*/
