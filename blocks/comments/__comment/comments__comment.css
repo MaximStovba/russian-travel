@@ -3,8 +3,8 @@
   font-size: 0;
   display: grid;
   /**/
-  grid-template-columns: minmax(min-content, max-content);
-  grid-template-rows: repeat(3, minmax(min-content, max-content));
+  grid-template-columns: 1fr;
+  grid-template-rows: repeat(3, min-content);
   grid-row-gap: 0;
   grid-template-areas:
     "c_image"
@@ -14,7 +14,7 @@
   justify-items: start; /*center*/
 }
 
-@media all and (max-width : 784px) {
+@media all and (max-width : 1023px) { /*784 -> 1023*/
   /* стили для планшета */
   .comments__comment {
     grid-template-areas:

@@ -1,7 +1,7 @@
 .comments__quote {
   margin: 0;
   margin-top: 42px; /*42*/
-  max-width: 296px;
+  /*max-width: 296px;*/
   font-style: normal;
   font-weight: normal;
   font-size: 0.875rem; /*14*/
@@ -12,18 +12,13 @@
   /**/
 }
 
-@media all and (min-width : 1264px) {
-  /* стили для больших настольных компьютеров и ноутбуков */
-  .comments__quote {
-    max-width: 382px;
-  }
-}
-
 /*=== 1024 ===*/
 
-@media all and (max-width : 784px) {
+@media all and (max-width : 1023px) { /*784 -> 1023*/
   /* стили для планшета */
   .comments__quote {
     margin-top: 1.5rem; /*24*/
+    font-size: 16px;
+    line-height: 23px;
   }
 }

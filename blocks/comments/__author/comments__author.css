@@ -17,3 +17,10 @@
     margin-top: 1.5rem; /*24*/
   }
 }
+
+@media all and (max-width : 374px) { /*336 -> 374*/
+  /* телефоны */
+  .comments__author {
+    margin-top: 17px;
+  }
+}

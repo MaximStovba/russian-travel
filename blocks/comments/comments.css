@@ -5,39 +5,41 @@
 @import url(./__author/comments__author.css);
 
 .comments {
-  margin: 0;
-  margin-top: 6.375rem; /*102*/
-  margin-left: 3rem; /*48*/
-  margin-right: 3rem; /*48*/
+  margin: 6.375rem auto 0; /*102*/
+  max-width: 928px;
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
   align-items: center;
 }
 
-@media all and (min-width : 1424px) {
+@media all and (min-width : 1264px) {
   /* стили для больших мониторов с разрешением 4K */
   .comments {
-    margin-left: 8rem; /*128*/
-    margin-right: 8rem; /*128*/
+    max-width: 1184px;
   }
 }
 
 /*=== 1024 ===*/
 
-@media all and (max-width : 784px) {
+@media all and (max-width : 1023px) { /*784 -> 1023*/
   /* стили для планшета */
   .comments {
-    margin-left: 3.375rem; /*54*/
-    margin-right: 3.375rem; /*54*/
+    max-width: 660px;
   }
 }
 
-@media all and (max-width : 464px) {
+@media all and (max-width : 767px) { /*464 -> 767*/
   /* телефоны */
   .comments {
     margin-top: 4rem; /*64*/
-    margin-left: 1rem; /*16*/
-    margin-right: 1rem; /*16*/
+    max-width: 343px;
+  }
+}
+
+@media all and (max-width : 374px) { /*336 -> 374*/
+  /* телефоны */
+  .comments {
+    max-width: 288px;
   }
 }
