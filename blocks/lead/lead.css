@@ -23,30 +23,9 @@
 
 /* 1024 */
 
-@media all and (max-width : 1023px) { /*784 -> 1023*/
+@media all and (max-width : 927px) { /*784 -> 927*/
   /* стили для планшета */
   .lead {
-    max-width: 768px;
-  }
-}
-
-@media all and (max-width : 767px) { /*375 -> 767*/
-  /* телефоны */
-  .lead {
-    max-width: 520px; /*375*/
-  }
-}
-
-@media all and (max-width : 519px) {
-  /* телефоны */
-  .lead {
-    max-width: 375px;
-  }
-}
-
-@media all and (max-width : 374px) { /*320 -> 374*/
-  /* телефоны */
-  .lead {
-    max-width: 320px;
+    max-width: 100%;
   }
 }

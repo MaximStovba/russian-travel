@@ -1,10 +1,47 @@
 .lead__figure {
   margin: 0 auto;
+  margin-top: 65px;
+  min-width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: stretch;
+  /* решение Netflix */
+  position: relative;
+  padding-top: 59.6983%;
 }
 
 @media all and (min-width : 1264px) {
   /* стили для больших настольных компьютеров и ноутбуков */
   .lead__figure {
     max-width: 984px;
+    margin-top: 78px;
+    padding-top: 56.2569%;
+  }
+}
+
+/*=== 1024 ===*/
+
+@media all and (max-width : 784px) { /*784*/
+  /* стили для планшета */
+  .lead__figure {
+    margin-top: 78px;
+    padding-top: 54.6875%;
+  }
+}
+
+@media all and (max-width : 464px) { /*464*/
+  /* телефоны */
+  .lead__figure {
+    margin-top: 31px;
+    padding-top: 56.2667%;
+  }
+}
+
+@media all and (max-width : 336px) { /*336*/
+  /* телефоны */
+  .lead__figure {
+    margin-top: 32px;
+    padding-top: 65.9375%;
   }
 }
