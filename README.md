@@ -3,7 +3,9 @@
 
 *Проект о том, где и как можно провести отпуск в родной стране.*
 
-Деплой GitHub Pages: https://maximstovba.github.io/russian-travel/
+**GitHub Pages**
+
+* [Ссылка на проектную работу](https://maximstovba.github.io/russian-travel)
 
 **Проект рассказывает о различных местах, которые следует посетить:**
 * Куршская коса;
